@@ -8,6 +8,7 @@ import javax.transaction.Transactional;
 
 import michimarz.toolkit.entity.Tool;
 import michimarz.toolkit.entity.ToolRepository;
+import one.microstream.storage.embedded.types.EmbeddedStorageManager;
 
 @ApplicationScoped
 public class ToolsService {
